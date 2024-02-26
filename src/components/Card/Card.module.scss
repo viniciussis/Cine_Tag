@@ -1,0 +1,28 @@
+.card {
+  padding: 0 0 1rem 0;
+  margin-top: .5rem;
+  width: 282px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .card__link {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+
+    .cover {
+      width: 100%;
+
+      h2 {
+        padding: 0 1rem;
+      }
+    }
+
+    .favoritar {
+      width: 25px;
+      padding: 0 1rem;
+    }
+  }
+}

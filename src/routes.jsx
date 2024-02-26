@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Favorites from './pages/Favorites'
 import Layout from './pages/Layout'
 import NotFound from './pages/NotFound'
-import Videos from './pages/Videos'
+import Player from './pages/Player'
 
 function AppRoutes() {
   return (
@@ -17,7 +17,7 @@ function AppRoutes() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="favorites" element={<Favorites />} />
-          <Route path=":id" element={<Videos />} />
+          <Route path=":id" element={<Player />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
