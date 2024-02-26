@@ -1,0 +1,27 @@
+.footer {
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  padding: 1rem 8rem;
+  z-index: 2;
+
+  .footer__media {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      display: flex;
+    }
+  }
+
+  .footer__para {
+    font-size: 1.25rem;
+  }
+}
