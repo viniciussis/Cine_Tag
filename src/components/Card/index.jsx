@@ -18,7 +18,7 @@ const Card = ({ video }) => {
         />
         <h2>{video.title}</h2>
       </Link>
-      <img src={icon} alt="To Favorite Icon" onClick={addFavorite(video)} />
+      <img src={icon} alt="To Favorite Icon" onClick={() => addFavorite(video) } />
     </div>
   )
 }
